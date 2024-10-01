@@ -4,6 +4,7 @@ import CityInput from './components/cityInput';
 import Weather from './components/weather';
 import WeatherByLocation from './components/weatherByLocation';
 import Forecast from './components/forecast';
+import Info from './components/info';
 import './App.css'; 
 
 const App = () => {
@@ -22,7 +23,7 @@ const App = () => {
             setError(null);
             setCity(city);
         } catch (err) {
-            setError('City not found. Please try again.');
+            setError('City not found, Please try again!');
             setWeatherData(null);
         }
     };
@@ -84,7 +85,7 @@ const App = () => {
             )}
             {activeTab === 'info' && (
                 <div>
-                    <h2>Hello World!</h2>
+                    <h2><Info/></h2>
                 </div>
             )}
         </div>
