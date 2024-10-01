@@ -11,7 +11,7 @@ In the project directory, you can run:
 use `npm install --legacy-peer-deps` command to install packages of the project. 
 then create a .env file in the root of the project and put the api key in the .env 
 `REACT_APP_OPENWEATHERMAP_API_KEY`= ###
-you can get the api key from the [https://home.openweathermap.org/users/sign_in](openweathermap) website, this api is used in this project. 
+you can get the api key from the [openweathermap](https://home.openweathermap.org/users/sign_in) website, this api is used in this project. 
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
