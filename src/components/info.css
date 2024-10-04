@@ -1,4 +1,3 @@
-/* src/components/Info.css */
 .info-container {
     padding: 20px;
 }
@@ -6,34 +5,25 @@
 .personal-info,
 .company-info {
     border: 1px solid #ccc;
-    /* Add border */
     border-radius: 5px;
-    /* Rounded corners */
     padding: 15px;
-    /* Padding inside the box */
     margin-bottom: 20px;
-    /* Space between sections */
 }
 
 h2 {
     margin-top: 0;
-    /* Remove default top margin */
 }
 
 .personal-info,
 .company-info {
     font-size: 14px;
-    /* Smaller font size */
     font-weight: normal;
-    /* Remove bold styling */
 }
 
 .personal-info {
     background-color: #f9f9f9;
-    /* Light background for personal info */
 }
 
 .company-info {
     background-color: #e9f7f9;
-    /* Different background for company info */
 }
